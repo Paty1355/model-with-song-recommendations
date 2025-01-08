@@ -14,7 +14,7 @@ This project performs an exploratory analysis of music data and creates a song r
 ## Data Preprocessing:
 - The **'artist genres'** column is encoded using the **Word2Vec** model to transform the categorical genre data into numeric vector representations.
 - The **Frequency Encoder** is used to encode other categorical variables, followed by the scaling of data using **StandardScaler** to improve the performance of machine learning models.
-- - **ColumnTransformer**: Used to apply different preprocessing techniques (e.g., encoding text and scaling numerical features) to separate columns in the dataset.
+- **ColumnTransformer**: Used to apply different preprocessing techniques (e.g., encoding text and scaling numerical features) to separate columns in the dataset.
 
 ## Hyperparameter Tuning:
 - The number of **neighbors** for the KNN algorithm is tuned to optimize the model's performance.
